@@ -230,6 +230,7 @@ input, select, textarea {
 	    text-transform: capitalize;
 	}
 
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -956,6 +957,13 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+		}
+
+		td.short{
+			padding: 0px 0.75em;
+		}
+		td.tall{
+			padding: 1.5em 0.75em;
 		}
 
 		table th {
