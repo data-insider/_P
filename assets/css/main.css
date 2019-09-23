@@ -17,7 +17,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -102,6 +103,12 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
+/* Type Cursor*/
+	.type-cursor { color:#fff; animation:blink .4s ease infinite;opacity:0; }
+  @keyframes blink {
+		 	100% { opacity:1; }
+		 }
 
 /* Type */
 
