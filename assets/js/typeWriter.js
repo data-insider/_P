@@ -1,7 +1,7 @@
 var pos = 0;
 var turn = 0;
-var data = ['              ' ,'Machine Learning','Business Intelligence', 'Data Mining', 'Deep Learning', 'Big Data Analytics', 'Real-time Processing', 'Computer Vision', 'Supervised Learning', 'Time-series Analysis', 'ETL Automation', 'Recommendation Engines', 'Image Processing', 'Marketing Intelligence', 'Interactive Dashboards', 'Serverless Computing', 'Distributed Data Pipelines', 'Report Automation', 'User Segmentation', 'Classification & Clustering'];
-var speed = 75;
+var data = ['              ' ,'Machine Learning','Business Intelligence', 'Data Mining', 'Deep Learning', 'Big Data Analytics', 'Computer Vision', 'Supervised Learning', 'Time-series Analysis', 'ETL Automation', 'Recommendation Engines', 'Image Processing', 'Marketing Intelligence', 'Interactive Dashboards', 'Serverless Computing', 'Distributed Data Pipelines', 'Report Automation', 'User Segmentation', 'Classification & Clustering'];
+var speed = 60;
 
 setTimeout(typeWriter, speed);
 
@@ -21,7 +21,7 @@ function erase() {
       var str=data[turn].toString().substring(0, pos);
       document.getElementById("demo").innerHTML = str;
       pos--;
-      setTimeout(erase, speed-60);
+      setTimeout(erase, speed-45);
     } else {
       turn++;
       if(turn>=data.length)
