@@ -1,6 +1,6 @@
 var pos = 0;
 var turn = 0;
-var data = ['                     ' ,'Machine Learning','Business Intelligence', 'Data Mining', 'Deep Learning', 'Big Data Analytics', 'Computer Vision', 'Natural language Processing', 'Recommendation Engines', 'Image Processing', 'Marketing Intelligence', 'Interactive Dashboards', 'Serverless Computing', 'Distributed Data Pipelines', 'ETL', 'Report Automation', 'User Segmentation', 'Classification & Clustering'];
+var data = ['     ' ,'Machine Learning','Business Intelligence', 'Data Mining', 'Deep Learning', 'Big Data Analytics', 'Computer Vision', 'Natural language Processing', 'Recommendation Engines', 'Image Processing', 'Marketing Intelligence', 'Interactive Dashboards', 'Serverless Computing', 'Distributed Data Pipelines', 'ETL', 'Report Automation', 'User Segmentation', 'Classification & Clustering'];
 var speed = 60;
 
 setTimeout(typeWriter, speed);
